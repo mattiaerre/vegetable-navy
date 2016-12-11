@@ -5,5 +5,5 @@ app.use(express.static('build'));
 
 const port = 3000;
 app.listen(port, () => {
-  console.log(`go to: http://0.0.0.0:${port}`); // eslint-disable-line no-console
+  console.log(`navigate to: http://127.0.0.1:${port}`); // eslint-disable-line no-console
 });
